@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Grocery</title>
+    <link rel="stylesheet" href="Css_Stylings/Payment_page.css">
+</head>
+<body class="Home-Page-Body">
+    <header>
+        <div class="Tile-and-logo">
+            <img class="Logo-icon" src="Logo/Logo Edited.png" alt="Prime Grocery Logo">
+            <h1>PRIMEGROCERS</h1>
+        </div>
+        <nav class="Navigation-Bar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li>
+                    <a href="#">Product Page ▾</a>
+                    <ul class="dropdown">
+                        <li><a href="Dairy Products.html">Diary Products</a></li>
+                        <li><a href="Vegetables.html">Vegetables</a></li>
+                        <li><a href="Cosmetics_and_Skincare.html">Cosmetics & Skincare</a></li>
+                    </ul>
+                </li>
+                <li><a href="Order_Page.html">Order Page</a></li>
+                <li><a href="Loyalty_Registration.html">Loyalty Registration</a></li>
+            </ul>
+        </nav>   
+        <a class="Purchse-Button" href="Order Page.html">Purchase Items</a>      
+    </header>
+    <main>
+        <h2>Your Order Summary</h2>
+        <div id="summary_table"></div>
+        <h3>Please Fill out the form below in order to complete the order</h3>
+        <h5 id="messageform">*Order will be delivered to the Address you mention below*</h5>
+        <div class="Separation"> 
+            <div id="personal_info_form"> 
+                <form action="">    
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" required><br><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" required><br><br>
+                    <label for="street_address">Street Address:</label><br>
+                    <input type="text" id="street_address" placeholder="House number and Street Name" required><br><br>
+                    <input type="text" placeholder="Apartment, suite, unit, etc"><br><br>
+                    <label for="town_city">Town/City:</label><br>
+                    <input type="text" id="town_city" required><br><br>
+                    <label for="postalcode">Postalcode/Zip:</label><br>
+                    <input type="text" id="postalcode" maxlength="4" required><br><br>
+                    <label for="phonenumber">Phone Number:</label><br>
+                    <input type="text" id="phonenumber" maxlength="10" required><br><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" required><br>
+                </form>
+            </div>
+            <div id="paymentdetails">
+                <h4>Select the payment Type</h4>
+                
+                <input type="radio" name="payment_method" id="visacard" value="visa" required>
+                <label for="visacard">Visa</label>
+                <input type="radio" name="payment_method" id="master_card" value="mastercard" required>
+                <label for="master_card">Mastercard</label>
+                <input type="radio" name="payment_method" id="americanexpresscard" value="americanexpress" required>
+                <label for="americanexpresscard">American Express</label>
+                <input type="radio" name="payment_method" id="cod" value="cod" required>
+                <label for="cod">Cash On Delivery</label>
+                <div id="Carddetails"></div>               
+            </div>
+        </div>
+        <div id="completeorder">
+            <button type="button" id="proceed">Complete Order</button>
+            <p id="successfull"></p>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="Tile-and-logo-Footer">
+            <img class="Logo-icon" src="Logo/Logo Edited.png" alt="Prime Grocery Logo">
+            <h1 class="Footer-Title">PRIMEGROCERS</h1>
+        </div>
+        <div class="Footer-contentt">
+            <div class="Locations-f">
+                <div class="Colombo-Details">
+                    <div class="Colombo-Footer">
+                        <img class="Location-Icon" src="Icons/Location Icon.png" alt="Location Icon">
+                        <p class="CMB-tItLE">Colombo</p>
+                    </div>
+                    <div class="Colombo-F-Content">
+                        <p class="Address-cmb">No. 388 Union Pl, Colombo 00200</p><br>
+                        <a class="Map-link-f" href="https://maps.app.goo.gl/XCNUgkmRay71Mscy5">See on Map➚</a>    
+                    </div>
+                </div>
+                <div class="Kandy-Details">
+                    <div class="Colombo-Footer">
+                        <img class="Location-Icon" src="Icons/Location Icon.png" alt="Location Icon">
+                        <p class="CMB-tItLE">Kandy</p>
+                    </div>
+                    <div class="Colombo-F-Content">
+                        <p class="Address">No.542 Peradeniya Rd, Kandy 20000</p>
+                        <a class="Map-link-f" href="https://maps.app.goo.gl/22VL6EiVVVLDYv6w8">See on Map➚</a>    
+                    </div>
+                </div>
+            </div>
+            <div class="Mail-and-Contact">
+                <p class="Mail-title">Mail us</p>
+                <div class="Mail">
+                    <br><br>
+                    <img class="Mail-Icon" src="Icons/Mail Icon.png" alt="Mail Icon">
+                    <p class="Mail-Address">primegrocery@gmail.com</p>
+                </div>
+            </div>
+            <div class="Payment-Methods">
+                <p class="Payments">Accepted Payment Methods</p>
+                <div class="Payment-Icons">
+                    <img class="CARD-Icons" src="Icons/Visa-Icon.png" alt="Visa">
+                    <img class="CARD-Icons" src="Icons/Mastercard-Icon.png" alt="Mastercard">
+                    <img class="CARD-Icons-American" src="Icons/American-Icon.png" alt="American Express">
+                </div>
+            </div>
+            <div class="socials">
+                <p class="Social-Title">Follow us on</p>
+                <a href="https://www.instagram.com/accounts/login/"><img class="socials-iconi" src="Icons/Instagram Icon.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/"><img class="socials-iconf" src="Icons/Facebook Icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com/login"><img class="socials-icont" src="Icons/Twitter Icon.png" alt="Twitter"></a>
+                <a href="https://www.tiktok.com/explore"><img class="socials-iconTT" src="Icons/Tiktok Icon.png" alt="Tiktok"></a>
+            </div>
+            <div class="Contacts-1">
+                <p class="Contact-Title">Contact</p>
+                <div class="contact1">
+                    <img class="Tele-Icon" src="Icons/Telephone Icon.png" alt="Telephone">
+                    <p>+94777777777</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="JavaScripts/Payment_Page.js"></script>
+</body>
+</html>
