@@ -1,0 +1,50 @@
+[
+    {
+        "Name": "Sapins Bottled Milk (750ml)",
+        "Price": 65
+    },
+    {
+        "Name": "Sapins Bottled Milk (1Ltr)",
+        "Price": 80
+    },
+    {
+        "Name": "Sapins Diet Milk Packet (500ml)",
+        "Price": 45
+    },
+    {
+        "Name": "Sapins Thick Milk Packet (500ml)",
+        "Price": 50
+    },
+    {
+        "Name": "Rich & Creamy Curd",
+        "Price": 55
+    },
+    {
+        "Name": "Set Curd (1kg)",
+        "Price": 90
+    },
+    {
+        "Name": "Set Curd (500g)",
+        "Price": 50
+    },
+    {
+        "Name": "Regular Curd (500ml)",
+        "Price": 45
+    },
+    {
+        "Name": "Ghee (50ml)",
+        "Price": 120
+    },
+    {
+        "Name": "Ghee (100ml)",
+        "Price": 220
+    },
+    {
+        "Name": "Ghee (200ml)",
+        "Price": 400
+    },
+    {
+        "Name": "Ghee (500ml)",
+        "Price": 950
+    }
+]

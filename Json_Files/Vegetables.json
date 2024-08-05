@@ -1,0 +1,50 @@
+[
+    {
+        "Name": "Thai Eggplant",
+        "Price": 45
+    },
+    {
+        "Name": "Bitter Melon",
+        "Price": 55
+    },
+    {
+        "Name": "Daikon Radish",
+        "Price": 40
+    },
+    {
+        "Name": "Dragon Fruit",
+        "Price": 200
+    },
+    {
+        "Name": "Lettuce",
+        "Price": 30
+    },
+    {
+        "Name": "Tomato",
+        "Price": 25
+    },
+    {
+        "Name": "Carrot",
+        "Price": 35
+    },
+    {
+        "Name": "Broccoli",
+        "Price": 70
+    },
+    {
+        "Name": "Cucumber",
+        "Price": 20
+    },
+    {
+        "Name": "Spring Asparagus",
+        "Price": 90
+    },
+    {
+        "Name": "Pumpkin",
+        "Price": 50
+    },
+    {
+        "Name": "Summer Sweet Corn",
+        "Price": 40
+    }
+]

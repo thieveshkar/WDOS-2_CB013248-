@@ -1,0 +1,28 @@
+[
+    {
+        "Name": "Flour",
+        "Price": 40
+    },
+    {
+        "Name": "Sugar",
+        "Price": 35
+    },
+    {
+        "Name": "Eggs",
+        "Price": 60
+    },
+    {
+        "Name": "Butter",
+        "Price": 70
+    },
+    {
+        "Name": "Baking Powder",
+        "Price": 25
+    },
+    {
+        "Name": "Salt",
+        "Price": 15
+    }
+]
+
+

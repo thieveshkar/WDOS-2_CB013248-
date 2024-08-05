@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Grilled Steak",
+        "Price": 500
+    },
+    {
+        "Name": "Roast Chicken",
+        "Price": 350
+    },
+    {
+        "Name": "Pulled Pork",
+        "Price": 400
+    },
+    {
+        "Name": "Salmon Fillet",
+        "Price": 600
+    },
+    {
+        "Name": "Shrimp Scampi",
+        "Price": 450
+    },
+    {
+        "Name": "Lobster Tail",
+        "Price": 800
+    }
+]

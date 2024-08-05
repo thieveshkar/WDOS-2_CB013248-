@@ -1,0 +1,654 @@
+root{
+    --Brown:rgb(85, 42, 0);
+    --Light-ivory:rgb(245, 245, 245);
+    --Footer-Color:rgb(220, 220, 220);     
+    --Table-Heading:rgb(215, 215, 225);
+    --Table-Content:rgb(220, 220, 220);    
+}
+
+.Home-Page-Body{
+    font-family: Syne; color:var(--Brown);
+    margin: 0;
+    padding: 0;   
+}
+
+
+.Buybutton{
+    font-family: Syne; color: #fdfeea;
+    font-size: 18px;
+    font-weight: bold;
+    background: #552a00;
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Stylings that are realated to the header section of the pages*/
+/*Stylings that are realated to the header section of the pages*/
+/*Stylings that are realated to the header section of the pages*/
+
+
+header{
+    background-color:var(--Footer-Color)
+}
+
+
+/*Stylings that are related to the Navigation Bar of the pages*/
+.Navigation-Bar{
+    position: absolute;
+    top: 15px ;
+    right: 280px;
+    z-index: 1000;/*z-index property in CSS controls the stacking order of positioned elements*/
+}
+.Navigation-Bar ul {
+    list-style: none;
+    background: transparent;
+}
+.Navigation-Bar ul li {
+    display: inline-block;
+    position: relative;
+    
+   
+}
+
+ul li a {
+    font-family: syne; color: var(--Brown);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+   
+}
+ul li ul.dropdown li {
+    display: block;
+    width: 100%;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position:absolute;
+    display: none;
+    background: var(--Light-ivory);
+    z-index: 1001;
+}
+ul li:hover ul.dropdown {
+    display: block;
+ 
+}
+.Logo-icon{
+    margin-top: 4px;
+    height: 50px;
+    width:45px;
+}
+
+
+/*Stylings that are related to the Footer section of the pages*/
+/*Stylings that are related to the Footer section of the pages*/
+/*Stylings that are related to the Footer section of the pages*/
+
+footer{
+    background-color: var(--Footer-Color);
+    font-family: syne; color: var(--Brown);
+    height: 310px;  
+    
+}
+
+.socials-iconi, .socials-iconf, .socials-icont, .socials-iconTT  {
+    height: 25px;
+    width:25px;
+    padding-top:10px;
+}
+.socials-iconi{
+    margin-right: 5px;
+}
+.socials-iconf{
+    margin-right: 5px;
+}
+.socials-icont{
+    margin-right: 5px;
+}
+.Tele-Icon{
+    height: 25px;
+    width:25px;
+
+}
+.contact1{
+    display: flex;
+}
+.Tele-Icon{
+    margin-top: 15px;
+    margin-right:10px ;
+}
+
+
+.Footer-contentt{
+    display: grid;
+    grid-template-columns:40% 40% 10%;
+    grid-template-rows: 20% 20%;
+    justify-content: space-evenly;
+    height: 120px;  
+    
+    
+}
+.Locations-f{
+    grid-column-start: 1;
+}
+.Payment-Icons{
+    margin-top: 10px;
+}
+.Contact-Title{
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.Social-Title{
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.Mail-and-Contact{
+    grid-column-start: 2;
+    font-family: syne;  
+}
+
+.Tile-and-logo-Footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.Logo-icon{
+    margin-top: 11px;
+    height: 40px;
+    width:35px;
+}
+.Footer-Title{
+    color:var(--Brown) ;
+}
+.Colombo-Details{
+    grid-row-start: 1;
+    font-family: syne;
+}
+.Kandy-Details{
+    grid-row-start: 2;
+    font-family: syne;
+    
+}
+.Colombo-Footer{
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+}
+
+.Location-Icon{
+    grid-row:1;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.CMB-tItLE{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.Mail-title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.Location-Icon{
+    height: 25px;
+    width:23px;
+}
+.Colombo-F-Content{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    padding-left: 40px;
+}
+.Map-link-f{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.Mail{
+    display: flex;
+    flex-direction: row;
+}
+.Mail-Icon{
+    height: 25px;
+    width:23px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.Mail-Icon1{
+    height: 25px;
+    width:23px;
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+.Payments{
+    margin-top: 19px;
+    font-weight: bold;
+
+}
+.CARD-Icons{
+    height: 25px;
+    width:45px;
+    margin-right: 5px;
+}
+.CARD-Icons-American{
+    height: 25px;
+    width: 35px;
+}
+.Payment-Methods{
+    grid-column-start:2;
+    grid-row-start: 2;
+    margin-top:80px ;
+
+}
+.socials{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    margin-top: 84px;
+}
+.Contacts-1{
+    grid-column: 3;
+    grid-row-start: 1;
+}
+.Mail-and-Contact {
+    margin-top: 0; 
+}
+.logoandtitle{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logoandtitle{
+    grid-column-start: 1;
+    grid-template-rows: 1;
+}
+
+:root{
+    --Brown:rgb(85, 42, 0);
+    --Light-ivory:rgb(245, 245, 245);
+    --Footer-Color:rgb(220, 220, 220);     
+    --Table-Heading:rgb(215, 215, 225);
+    --Table-Content:rgb(220, 220, 220);    
+}
+
+.Home-Page-Body{
+    font-family: Syne; color:var(--Brown);
+    margin: 0;
+    padding: 0;   
+}
+
+
+.Buybutton{
+    font-family: Syne; color: #fdfeea;
+    font-size: 18px;
+    font-weight: bold;
+    background: #552a00;
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Stylings that are realated to the header section of the pages*/
+/*Stylings that are realated to the header section of the pages*/
+/*Stylings that are realated to the header section of the pages*/
+
+
+header{
+    background-color:var(--Footer-Color)
+}
+
+
+/*Stylings that are related to the Navigation Bar of the pages*/
+.Navigation-Bar{
+    position: absolute;
+    top: 15px ;
+    right: 280px;
+    z-index: 1000;/*z-index property in CSS controls the stacking order of positioned elements*/
+}
+.Navigation-Bar ul {
+    list-style: none;
+    background: transparent;
+}
+.Navigation-Bar ul li {
+    display: inline-block;
+    position: relative;
+    
+   
+}
+
+ul li a {
+    font-family: syne; color: var(--Brown);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+   
+}
+ul li ul.dropdown li {
+    display: block;
+    width: 100%;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position:absolute;
+    display: none;
+    background: var(--Light-ivory);
+    z-index: 1001;
+}
+ul li:hover ul.dropdown {
+    display: block;
+ 
+}
+.Logo-icon{
+    margin-top: 4px;
+    height: 50px;
+    width:45px;
+}
+.Tile-and-logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.Purchse-Button{
+    font-family: Syne; color:var(--Light-ivory);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background:var(--Brown);
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    right: 6%;
+
+}
+
+
+
+
+/* General Styles */
+body {
+    background-color: #f9f9f9;
+    color: rgb(85, 42, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.Seperation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    background-color: var(--Brown);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Seperation label {
+    color: var(--Light-ivory);
+}
+
+#personal_info_form,
+#paymentdetails {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+#personal_info_form form label,
+#paymentdetails label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+#personal_info_form form input,
+#paymentdetails input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#paymentdetails {
+    padding-top: 5%;
+}
+
+#paymentdetails h4 {
+    margin-bottom: 5%;
+    margin-left: 35%;
+    color: var(--Brown);
+}
+
+#paymentdetails {
+    margin-bottom: 2%;
+}
+
+#paymentdetails input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+#paymentdetails label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Hover and Focus Styles */
+#personal_info_form form input:hover,
+#paymentdetails input[type="radio"]:hover {
+    border-color: rgb(85, 42, 0);
+}
+
+#personal_info_form form input:focus,
+#paymentdetails input[type="radio"]:focus {
+    border-color: rgb(85, 42, 0);
+    outline: none;
+}
+
+/* Additional Styling */
+#personal_info_form form input[type="submit"] {
+    background-color: rgb(85, 42, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#personal_info_form form input[type="submit"]:hover {
+    background-color: rgb(70, 35, 0);
+}
+
+#paymentdetails #Carddetials {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Table and Form Separation */
+table {
+    margin-bottom: 20px; /* Add margin to the bottom of the table to separate it from the form */
+}
+
+.Seperation {
+    margin-top: 40px; 
+}
+#Carddetails{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+main h3{
+    margin-top: 2%;
+}
+
+#summary_table table {
+    background-color: #f9f9f9;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#summary_table th, td {
+    border-bottom: 1px solid rgb(85, 42, 0);
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+#summary_table th {
+    background-color: rgb(85, 42, 0);
+    font-weight: bold;
+    color: var(--Light-ivory);
+}
+#summary_table tr {
+    border-bottom: 1px solid #ddd;
+}
+#summary_table tr:hover {
+    background-color: #f1f1f1;
+}
+#messageform{
+    font-style: italic;
+}
+
+#completeorder button {
+    background-color: var(--Brown);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 25px; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+#completeorder button:hover {
+    background-color: #C4A484; 
+}
+#completeorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 315px) and  (max-width: 770px) {
+    
+    #paymentdetails h4{
+        margin-left: 15%;
+
+    }
+    header{
+        height: 55px;
+    }
+    .Tile-and-logo{
+        display: flex;
+        flex-direction: row;
+        
+    }
+  .Tile-and-logo h1 {
+    font-size: 10px; 
+    position: absolute;
+    top: 2%;
+    left:6%;
+    height: 20px;
+    width:15px;       
+  }
+  .Footer-Title{
+    font-size: 10px; 
+    margin-top:3%;
+
+  }
+  .Logo-icon{
+    position: absolute;
+    top: 1.5%;
+    left: 2%;
+    height: 20px;
+    width:15px;
+  }
+  .Navigation-Bar {
+    padding: 0px;
+    position: absolute;
+    top:1%;
+    right: 21%;
+    
+  }
+   .Navigation-Bar ul {
+     font-weight: 730;
+     font-size: 8px;
+     width: 180px;
+     display: flex;
+    }
+    .Purchse-Button{
+        display: none;
+    }
+    .socials-iconi, .socials-iconf, .socials-icont, .socials-iconTT  {
+        height: 10px;
+        width:10px;
+        margin-top:10px;
+    }
+    .Location-Icon, .Payment-Icon, .Tele-Icon, .Mail-Icon, .CARD-Icons, .CARD-Icons-American{
+        height: 10px;
+        width:10px;
+    }
+    .Location-Icon{
+        margin-top: 9%;
+        margin-left: 20%;
+    }
+    .Mail-Icon{
+        margin-top: 17px;
+    }
+    footer{
+        font-size: 12px;
+        height: 295px; 
+    }
+    .Footer-contentt{
+        display: grid;
+        grid-template-columns:45% 30% 20%;
+        grid-template-rows: 20% 20%;
+        justify-content: space-evenly;
+        height: 120px;  
+        
+    }
+    .Colombo-F-Content{
+        margin-left: 0;
+    }
+    .CMB-tItLE{
+        margin-bottom: 0px;
+    }}
