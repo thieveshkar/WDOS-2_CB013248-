@@ -332,7 +332,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "Payment_Page.html"//this line make sure to redirect to the Payment page once the btn is clicked
             localStorage.setItem("selectedItems", JSON.stringify(selectedItems))
         } else {
-            alert("cart is empty")
+            alert("Your cart is empty, Try adding some products")
             
         }
     }
