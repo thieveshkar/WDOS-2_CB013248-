@@ -247,10 +247,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function SaveOrderToFav(){
-        localStorage.setItem("selectedItems", JSON.stringify(selectedItems)) /*Here I am making sure to save the selected items 
-        to the local storage by converting the the "selectedItems" array to JSON formatted string.in that way it is possible to retrive the data 
-        when "apply favourites" and "pay now" is clicked using that it is possible to populate the cart table in both the pages*/
-        alert("Order has been added to Favourites")
+        if (selectedItems.length>0) {
+            localStorage.setItem("selectedItems", JSON.stringify(selectedItems)) /*Here I am making sure to save the selected items 
+            to the local storage by converting the the "selectedItems" array to JSON formatted string.in that way it is possible to retrive the data 
+            when "apply favourites" and "pay now" is clicked using that it is possible to populate the cart table in both the pages*/
+            alert("Order has been added to Favourites")
+            
+        } else {
+            alert("Add Products to save")
+            
+        }
+       
     }
 
     function displayfavitems() {
