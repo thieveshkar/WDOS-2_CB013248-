@@ -34,7 +34,7 @@ The web application consists of the following pages:
 - **Logo**: Logo files for branding.
 - **Photos**: Image assets for the website.
 - **Json_Files**: JSON data files used to store product information.
-- **Content Sources.txt**: References and sources for content used in the project.
+
 
 ## Technologies Used
 
